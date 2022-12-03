@@ -1,15 +1,23 @@
 <style>
-  body {
-    background: black;
-  }
+    body {
+        background: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    @media (max-width: 800px) {
+        .body {
+            align-items: self-start;
+        }
+    }
 </style>
 <canvas></canvas>
 
 <script
-  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
-  integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
+    integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
 ></script>
 <script src="js/utils.js"></script>
 <script src="js/data/collisions.js"></script>
