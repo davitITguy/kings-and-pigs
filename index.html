@@ -5,6 +5,15 @@
         align-items: center;
         justify-content: center;
     }
+    p {
+        position: absolute;
+        color: white;
+        font-size: 24px;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        text-align: center;
+        bottom: 20%;
+    }
     @media (max-width: 800px) {
         .body {
             align-items: self-start;
@@ -12,6 +21,7 @@
     }
 </style>
 <canvas></canvas>
+<p id="text">test text</p>
 
 <script
     src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
