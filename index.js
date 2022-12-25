@@ -148,7 +148,7 @@ let levels = {
                 imageSrc: './img/backgroundLevel3.png',
             });
             const textlvl1 = document.getElementById('text');
-            textlvl1.innerHTML = `Hey I'm Davit React/Next Developer. Press A/D to move W to jump/open door`;
+            textlvl1.innerHTML = `Hey I'm Davit React/Next Developer. Press A/D to move W/Spacebar to jump/open door`;
             doors = [
                 new Sprite({
                     position: {
